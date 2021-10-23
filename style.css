@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:200,100,400');
+html {
+    font-family: 'Raleway', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+
+.img {
+    width: 20rem;
+    height: 13rem;
+    background: rgb(36, 47, 95);
+    border-radius: 10px;
+    
+}
+
+.achievements-box {
+    text-align: center;
+    background: black;
+    color: #fff;
+    width: 20rem;
+    border-radius: 10px;
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.3);
+}
+
+.achievements {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-left: 4rem;
+    margin-right: 4rem;
+}
+
+.achievement-text {
+    font-size: 2rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.bottom-line {
+    border-bottom: solid 4px #333;
+    margin-bottom: 5rem;
+    margin-left: 43rem;
+    width: 7rem;
+}
+
+.header-content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20rem;
+    background: #96ffff;
+}
+
+h1 {
+    margin-left: 10rem;
+    width: 30rem;
+    margin-top: 5rem;
+}
+
+/* Cursor */
+.txt-type > .txt {
+    border-right: 0.2rem solid #333;
+}
+
+.achievements-box:hover {
+    transform: translateY(-15px);
+    transition: 0.2s ease-in-out;
+}
+
+img {
+    height: 17rem;
+}
+
+a {
+    text-decoration: none;
+}
