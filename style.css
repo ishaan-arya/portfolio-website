@@ -75,3 +75,27 @@ img {
 a {
     text-decoration: none;
 }
+
+/* Media Queries */
+@media(max-width: 600px) {
+    .achievements {
+        grid-template-columns: repeat(1, 1fr);
+        padding: none;
+    }
+    .header-content {
+        grid-template-columns: repeat(1, 1fr);
+        margin: 0px 0px 0px 0px;
+        text-align: center;
+
+    }
+    img {
+        display: none;
+    }
+    h1 {
+        font-size: 1rem;
+        margin: 20px 0px 20px 0px;
+    }
+    .txt-type > .txt {
+        border-right: 0.1rem solid #333;
+    }
+  }
