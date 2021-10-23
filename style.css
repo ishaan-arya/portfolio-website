@@ -77,7 +77,7 @@ a {
 }
 
 /* Media Queries */
-@media(max-width: 600px) {
+@media all and (max-width: 600px) {
     .achievements {
         grid-template-columns: repeat(1, 1fr);
         padding: none;
@@ -86,14 +86,15 @@ a {
         grid-template-columns: repeat(1, 1fr);
         margin: 0px 0px 0px 0px;
         text-align: center;
+        width: 29.5rem;
 
     }
     img {
         display: none;
     }
     h1 {
-        font-size: 1rem;
-        margin: 20px 0px 20px 0px;
+        font-size: 1.5rem;
+        margin: 20px 1px 20px 1px;
     }
     .txt-type > .txt {
         border-right: 0.1rem solid #333;
