@@ -142,7 +142,7 @@ a {
         grid-gap: 25rem;
     }
     h1 {
-        margin-left: 10rem;    
+        margin-left: 15rem;    
     }
     .achievements {
         grid-template-columns: repeat(5, 1fr);
