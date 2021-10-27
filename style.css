@@ -165,7 +165,7 @@ a {
 
 @media (min-width: 1024px) {
     .header-content {
-        width: 85rem;
+        width: 88rem;
         grid-gap: 22rem;
     }
     h1 {
@@ -173,7 +173,7 @@ a {
     }
     .achievements {
         grid-template-columns: repeat(4, 1fr);
-        margin-left: 2rem;
+        margin-left: 1.5rem;
     }
 }
 
