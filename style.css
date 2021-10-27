@@ -165,7 +165,7 @@ a {
 
 @media (min-width: 1024px) {
     .header-content {
-        width: 88rem;
+        width: 89rem;
         grid-gap: 22rem;
     }
     h1 {
