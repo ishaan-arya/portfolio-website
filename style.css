@@ -7,54 +7,82 @@ html {
     display:table; 
     margin-left:auto; 
     margin-right:auto;
+    background: #96ffff;
+}
+
+.line {
+    border-bottom: #000 3px solid; 
+    box-shadow: -5px 5px 10px 1px rgba(0, 0, 0, 0.3);
 }
 
 .img-1 {
     width: 20rem;
     height: 13rem;
-    background: url(/resume-img.png);
+    background: url(/resume-image.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
     border-radius: 10px;
 }
 .img-2 {
     width: 20rem;
     height: 13rem;
-    background: #00ff;
+    background: url(/skid-image.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 55%;
     border-radius: 10px;
 }
 .img-3 {
     width: 20rem;
     height: 13rem;
-    background: #00f;
+    background: url(/valve-image.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
     border-radius: 10px;
 }
 .img-4 {
     width: 20rem;
     height: 13rem;
-    background: #00f;
+    background: url(/jackson-image.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
     border-radius: 10px;
 }
 .img-5 {
     width: 20rem;
     height: 13rem;
-    background: #00f;
+    background: url(/six-sigma-image.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
     border-radius: 10px;
 }
 .img-6 {
     width: 20rem;
     height: 13rem;
-    background: #00f;
+    background: url(/essay-image.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 35%;
     border-radius: 10px;
 }
 .img-7 {
     width: 20rem;
     height: 13rem;
-    background: #00f;
-    border-radius: 10px;
-}
-.img-8 {
-    width: 20rem;
-    height: 13rem;
-    background: #00f;
+    background: url(/pubspek.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
     border-radius: 10px;
 }
 
