@@ -99,7 +99,10 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
+    zoom: normal;
     width: auto;
+    margin: 4rem;
+    margin: 4rem;
 }
 
 .achievement-text {
