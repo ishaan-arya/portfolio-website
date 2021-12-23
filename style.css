@@ -85,6 +85,16 @@ html {
     background-size: 30%;
     border-radius: 10px;
 }
+.img-8 {
+    width: 20rem;
+    height: 13rem;
+    background: url(/gold-crest-img.png);
+    background-color: #04275F;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30%;
+    border-radius: 10px;
+}
 
 .achievements-box {
     text-align: center;
@@ -99,8 +109,7 @@ html {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 2rem;
-    zoom: normal;
-    width: auto;
+    zoom: auto;
     margin: 4rem;
     margin: 4rem;
 }
